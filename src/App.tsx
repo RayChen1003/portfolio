@@ -1,6 +1,7 @@
 import { HashRouter, Routes, Route } from 'react-router-dom'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
+import AiChat from './components/AiChat'
 import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
@@ -22,6 +23,7 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
+      <AiChat />
     </HashRouter>
   )
 }
